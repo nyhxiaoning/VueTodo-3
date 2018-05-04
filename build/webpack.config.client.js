@@ -98,7 +98,9 @@ if (isDev) {
       ]
     },
     plugins: defaultPluins.concat([
-      new ExtractPlugin('styles.[contentHash:8].css')
+      new ExtractPlugin({
+        filename: 'style/[name].[md5:contenthash:hex:20].css'
+      })
     ])
   });
 
