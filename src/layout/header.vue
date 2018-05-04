@@ -2,7 +2,7 @@
   <header class="main-header">
     <h1>TODO</h1>
     <ul>
-      <li><a href="https://coding.net/u/dunizb/p/todo-src">源码</a></li>
+      <li><a href="https://github.com/dunizb/VueTodo">源码</a></li>
       <li><a href="https://www.dunizb.com">博客</a></li>
       <li><a href="https://store.dunizb.com">小铺</a></li>
       <li><a href="https://demo.dunizb.com">小码</a></li>
