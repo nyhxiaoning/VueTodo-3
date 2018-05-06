@@ -2,6 +2,9 @@
 
 此源码基于 [慕课网](https://www.imooc.com/) Jokcy老师的 [Vue+Webpack打造todo应用](https://www.imooc.com/learn/935) 视频教程编写，所用到的模块包均为当前最新版本
 
+### 预览
+![预览](screenshot.gif)
+
 ### 技术点
 - webpack4.0
 - 在Vue中写JSX
