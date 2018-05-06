@@ -6,7 +6,8 @@
 - webpack4.0
 - 在Vue中写JSX
 - tabs，notification组件的封装
-- 背景卑职每日更新Bing壁纸
+- 背景壁纸每日更新Bing壁纸
+- 国际化化支持（正在开发...）
 
 ### 开始
 - 安装NPM依赖：`npm install`
