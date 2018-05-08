@@ -7,7 +7,7 @@ const config = {
   entry: path.join(__dirname, '../src/index.js'),
   output: {
     filename: 'build.[hash:8].js',
-    path: path.join(__dirname, '../docs')
+    path: path.join(__dirname, '../dist')
   },
   module: {
     rules: [
