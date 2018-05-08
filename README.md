@@ -18,4 +18,4 @@
 - 启动项目打包：`npm run build`
 
 
-**预览网址**：[https://todo.dunizb.com/](https://todo.dunizb.com/)
+**预览网址**：[https://demo.dunizb.com/list/vue-todo/](https://demo.dunizb.com/list/vue-todo/)
