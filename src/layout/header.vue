@@ -24,6 +24,7 @@
       changeLang() {
         this.$i18n.locale = this.$i18n.locale === 'CN' ? 'EN' : 'CN';
         this.$cookies.set('i18n_lang', this.$i18n.locale);
+        location.reload();
       }
     }
   }

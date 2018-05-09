@@ -1,6 +1,6 @@
 module.exports = {
   lang: {
-    siteName: 'TODO',
+    siteName: '土肚',
     currentLang: 'English',
     sourceCode: '源码',
     blog: '博客',

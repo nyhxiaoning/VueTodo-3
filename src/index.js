@@ -20,8 +20,8 @@ import './assets/styles/global.styl'
 // document.body.appendChild(root);
 
 // 获取Bing每日壁纸
-// const img = '//api.dujin.org/bing/1920.php';
-// document.body.style.backgroundImage = `url(${img})`
+const img = '//api.dujin.org/bing/1920.php';
+document.body.style.backgroundImage = `url(${img})`
 
 // 将根节点root注入到app.vue组件中
 new Vue({

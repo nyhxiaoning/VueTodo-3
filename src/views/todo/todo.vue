@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       todos: [],
-      filter: "all",
+      filter: this.$t("lang.all"),
       placeholder: this.$t("lang.placeholder"),
       status: [
         this.$t("lang.all"),
@@ -43,7 +43,7 @@ export default {
   },
   computed: {
     filteredTodos() {
-      if (this.filter === "all") {
+      if (this.filter === this.status[0]) {
         return this.todos;
       }
       const completed = this.filter === "completed";
