@@ -9,6 +9,9 @@ module.exports = {
     about: 'About',
     all: 'All',
     active: 'Active',
-    completed: 'Completed'
+    completed: 'Completed',
+    clear_completed: 'Clear Completed',
+    items_left: 'items left',
+    placeholder: 'What to do next?'
   }
 }

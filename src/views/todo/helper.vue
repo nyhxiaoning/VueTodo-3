@@ -1,11 +1,11 @@
 <template>
   <div class="helper">
-    <span class="left">{{unFinishedTodoLength}} items left</span>
+    <span class="left">{{unFinishedTodoLength}} {{ $t("lang.items_left") }}</span>
     <span class="tabs">
       <!-- www.dunizb.com -->
     </span>
     <span class="clear" @click="clearAllCompleted()">
-      Clear Completed
+      {{ $t("lang.clear_completed") }}
     </span>
   </div>
 </template>
