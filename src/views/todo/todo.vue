@@ -31,8 +31,14 @@ export default {
     return {
       todos: [],
       filter: "all",
-      status: ["all", "active", "completed"]
+      status: [
+        this.$t("lang.all"),
+        this.$t("lang.active"),
+        this.$t("lang.completed")
+      ]
     };
+  },
+  mounted() {
   },
   computed: {
     filteredTodos() {

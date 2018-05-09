@@ -18,10 +18,6 @@
   export default {
     data() {
       return {
-        langType: {
-          key: 'EN',
-          value: 'English'
-        }
       }
     },
     methods: {

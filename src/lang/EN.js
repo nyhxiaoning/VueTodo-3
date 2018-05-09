@@ -6,6 +6,9 @@ module.exports = {
     blog: 'Blog',
     store: 'Store',
     demo: 'Demos',
-    about: 'About'
+    about: 'About',
+    all: 'All',
+    active: 'Active',
+    completed: 'Completed'
   }
 }

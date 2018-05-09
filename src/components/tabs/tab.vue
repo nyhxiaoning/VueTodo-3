@@ -25,14 +25,14 @@
       }
     },
     render () {
-      const tab = this.$slots.label || <span>{this.label}</span>
+      let tab = this.$slots.label || <span>{ this.label }</span>
       const classNames = {
         tab: true,
         active: this.active
       }
       return (
         <li class={classNames} on-click={this.handleClick}>
-          {tab}
+          { tab }
         </li>
       )
     }
