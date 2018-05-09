@@ -16,7 +16,8 @@
   "author": "Dunizb",
   "license": "ISC",
   "dependencies": {
-    "vue": "^2.5.13"
+    "vue": "^2.5.13",
+    "vue-i18n": "^7.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",

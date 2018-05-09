@@ -10,6 +10,8 @@ Vue.use(Notification);
 import Tabs from './components/tabs';
 Vue.use(Tabs);
 
+import i18n from './lang/index'
+
 // 引入全局CSS样式
 import './assets/styles/global.styl'
 
@@ -18,10 +20,11 @@ import './assets/styles/global.styl'
 // document.body.appendChild(root);
 
 // 获取Bing每日壁纸
-const img = '//api.dujin.org/bing/1920.php';
-document.body.style.backgroundImage = `url(${img})`
+// const img = '//api.dujin.org/bing/1920.php';
+// document.body.style.backgroundImage = `url(${img})`
 
 // 将根节点root注入到app.vue组件中
 new Vue({
-    render: (h) => h(App)
+  i18n,
+  render: (h) => h(App)
 }).$mount('#root');

@@ -4,7 +4,7 @@
     <Header></Header>
     <Todo></Todo>
     <Footer></Footer>
-  </div>  
+  </div>
 </template>
 
 <script>
