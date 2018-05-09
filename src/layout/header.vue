@@ -1,6 +1,6 @@
 <template>
   <header class="main-header">
-    <h1>{{ $t("lang.siteName") }}</h1>
+    <h1 v-t="siteName"></h1>
     <ul>
       <li>
         <a href="javascript:;" @click="changeLang()">{{ $t("lang.currentLang") }}</a>
@@ -18,6 +18,7 @@
   export default {
     data() {
       return {
+        siteName: this.$t("lang.siteName")
       }
     },
     methods: {
